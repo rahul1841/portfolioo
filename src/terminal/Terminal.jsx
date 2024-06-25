@@ -42,7 +42,7 @@ const Terminal = ({ dev, setDev }) => {
         "Hello I am Rahul Kumar. I am a B.Tech Student currently studying in G.L. Bajaj Institute of Technology, Greater Noida.";
     } else if (command === "projects") {
       newOutput =
-        "WebMine : A Platform to scrape and analyze customer review on products. \EduGlow : EduGlow is a fully functional ed-tech platform that enables users to create, consume, and rate educational content. \Expense Tracker :  A Expense Tracker application using Context Api. \nAviScan : A Hackathon project for categorizing faults in Aeroplanes.";
+        "WebMine : A Platform to scrape and analyze customer review on products. \nEduGlow : EduGlow is a fully functional ed-tech platform that enables users to create, consume, and rate educational content. \nExpense Tracker :  A Expense Tracker application using Context Api. \nAviScan : A Hackathon project for categorizing faults in Aeroplanes.";
     } else if (command === "resume") {
       newOutput = "File Opened in new Tab";
       window.open("/resume.pdf", "_blank");
