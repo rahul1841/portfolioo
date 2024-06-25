@@ -5,39 +5,39 @@ import { BsGlobe2 } from "react-icons/bs";
 const Projects = () => {
   const projects = [
     {
-      title: "mrashishsingh.me",
+      title: "Portfolio",
       description:
         "My portfolio",
-      source: "https://github.com/kaptaan14/portfoliooo",
-      demo: "https://www.mrashishsingh.me",
+      source: "https://github.com/rahul1841/portfolioo",
+      demo: "https://portfolioo-nu-three.vercel.app/",
     }, 
     {
       title: "EduGlow",
       description:
-        "A social media app where you can share post with your friends.",
+        "EduGlow is a fully functional ed-tech platform that enables users to create, consume, and rate educational content.",
       source: "https://github.com/rahul1841/EduGlow",
       demo: "https://edu-glow.vercel.app/",
     },
     {
       title: "WebMine",
       description:
-        "A web app for managing your task which saves your data in database" ,
+        "A Platform to scrape and analyze customer review on products." ,
       source: "https://github.com/rahul1841/WebMine",
       demo: "https://web-mine.vercel.app/",
     },
     {
       title: "AviScan",
       description:
-        "A Hackathon project for categorizing faults in Aeroplanes",
+        "A Hackathon project for categorizing faults in Aeroplanes.",
       source: "https://github.com/rahul1841/AviaScan/tree/master/AviaScan-main",
       demo: "",
     },
     {
       title: "Expense Tracker",
       description:
-        "A single page web application which stores your data on local storage.",
-      source: "https://github.com/kaptaan14/To-Do-react-",
-      demo: "https://to-do-react-bay.vercel.app/",
+        "A Expense Tracker application using Context Api.",
+      source: "https://github.com/rahul1841/Expense-Tracker",
+      demo: "",
     },
   ];
   return (
